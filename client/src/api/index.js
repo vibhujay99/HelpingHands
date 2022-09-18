@@ -7,4 +7,4 @@ export const createVolunteer = (newVolunteer) =>
   API.post("/volunteers", newVolunteer);
 export const updateVolunteers = (id, updateVolunteers) =>
   API.patch(`/volunteers/${id}`, updateVolunteers);
-export const deleteVolunteers = (id) => API.delete(`/voluntters/${id}`);
+export const deleteVolunteers = (id) => API.delete(`/volunteers/${id}`);

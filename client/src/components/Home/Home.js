@@ -7,6 +7,8 @@ import { getVolunteers } from "../../actions/volunteers";
 import Volunteers from "../Volunteers/Volunteers";
 import FormVolunteers from "../Forms/FormVolunteers";
 
+import useStyles from "./styles";
+
 const Home = () => {
   const [currentId, setCurrentId] = useState(null);
   const dispatch = useDispatch();

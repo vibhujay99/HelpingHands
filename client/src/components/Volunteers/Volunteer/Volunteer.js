@@ -50,6 +50,9 @@ const Volunteer = ({ volunteer, setCurrentId }) => {
         <Typography className={classes.title} variant="h5" gutterBottom>
           {volunteer.volFirstName}
         </Typography>
+        <Typography className={classes.title} variant="h5" gutterBottom>
+          {volunteer.volTitle}
+        </Typography>
       </CardContent>
       <CardActions className={classes.cardActions}>
         <Button
